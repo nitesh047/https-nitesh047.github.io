@@ -21,15 +21,15 @@ function Header() {
     const toggle = () => setIsOpen(!isOpen);
   return (
     <div>
-    <Navbar expand="md" className='headerComp'>
+    <Navbar fixed='top' expand="md" className='headerComp'>
       <NavbarBrand className='navbarBrand' href="/">NITESH SAINI</NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar className='LeftNavbarComp'>
   
-        <NavbarText className='navbarList'>Home</NavbarText>
-        <NavbarText  className='navbarList'>Proects</NavbarText>
+        <NavbarText className='navbarList' >Home</NavbarText>
+        <NavbarText  className='navbarList'>Projects</NavbarText>
         <NavbarText  className='navbarList'>Blog</NavbarText>
-        <NavbarText>Resume</NavbarText>
+        <NavbarText style={{fontWeight:500}}>Resume</NavbarText>
 
       </Collapse>
     </Navbar>
