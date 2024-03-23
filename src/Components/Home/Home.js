@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container,Row,Col} from 'reactstrap'
+import FontAwesome from 'react-fontawesome'
 import './Home.css'
 
 function Home() {
@@ -12,10 +13,54 @@ function Home() {
           <img src="./myself.jpg" alt='Nitesh Saini' className='Img'/>
           <center style={{width:230,marginTop:10}}><p className='name'> Nitesh Saini</p></center>
           <center style={{width:230,marginTop:-15}}><p style={{color:'grey',fontSize:17}}> Full Stack Developer</p></center>
-          <center style={{width:230,marginTop:-15}}><p style={{color:'rgb(0, 81, 129)',fontSize:17,textDecoration:'underline',cursor:'pointer'}}> BIPP ISB</p></center>
+          <center style={{width:230,marginTop:-15}}><p style={{color:'rgb(19 114 171)' ,fontSize:17,textDecoration:'underline',cursor:'pointer'}}> BIPP ISB</p></center>
+            <center>
+            <div>
+              <a href='mailto:niteshsaini5112001@gmail.com'>
+              <FontAwesome
+           className="super-crazy-colors"
+           name="fa-brands fa-envelope"
+  
+           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)',color:'rgb(19 114 171)' ,marginRight:15,fontSize:22  }}
+             />
+              </a>
+              <a href='https://www.linkedin.com/in/nitesh-saini-80893b1a0' target='_blank'>
+
+            <FontAwesome
+        className="super-crazy-colors"
+        name="fa-brands fa-linkedin"
+        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)',color:'rgb(19 114 171)' ,marginRight:15,fontSize:22  }}
+          />
+              </a>
+              <a href='https://github.com/nitesh047' target='_blank'>
+
+           <FontAwesome
+        className="super-crazy-colors"
+        name="fa-brands fa-github"
+        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)',color:'rgb(19 114 171)' ,marginRight:15,fontSize:22  }}
+        />
+        </a>
+        <a href='https://leetcode.com/nitesh047/' target='_blank'>
+          
+            <FontAwesome
+        className="super-crazy-colors"
+        name="fa-brands fa-code"
+        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)',color:'rgb(19 114 171)' ,marginRight:15,fontSize:22  }}
+        />
+        </a>
+
+            <FontAwesome
+        className="super-crazy-colors"
+        name="fa-brands fa-file"
+    
+        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)',color:'rgb(19 114 171)' ,marginRight:15,fontSize:22 }}
+          />
             </div>
+
+            </center>
+            </div>
+            <br></br>
         </Col>
-       
         <Col md="8" className='col2'>
           <h6 className='nameHead'>Hi, I'm Nitesh.</h6>
           {/* <br></br> */}
